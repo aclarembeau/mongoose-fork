@@ -1,4 +1,4 @@
-declare module 'mongoose' {
+declare module 'mongoose-fork' {
   import stream = require('stream');
 
   interface MongooseOptions {

@@ -16,7 +16,7 @@ import {
   DefaultSchemaOptions
 } from 'mongoose';
 
-declare module 'mongoose' {
+declare module 'mongoose-fork' {
   /**
    * @summary Obtains document schema type.
    * @description Obtains document schema type from document Definition OR returns enforced schema type if it's provided.

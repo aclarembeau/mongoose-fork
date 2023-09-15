@@ -1,4 +1,4 @@
-declare module 'mongoose' {
+declare module 'mongoose-fork' {
   /**
      * [Stages reference](https://www.mongodb.com/docs/manual/reference/operator/aggregation-pipeline/#aggregation-pipeline-stages)
      */

@@ -1,4 +1,4 @@
-declare module 'mongoose' {
+declare module 'mongoose-fork' {
 
   type SchemaValidator<T> = RegExp | [RegExp, string] | Function | [Function, string] | ValidateOpts<T> | ValidateOpts<T>[];
 

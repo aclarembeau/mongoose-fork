@@ -1,4 +1,4 @@
-declare module 'mongoose' {
+declare module 'mongoose-fork' {
   import mongodb = require('mongodb');
 
   export type ApplyBasicQueryCasting<T> = T | T[] | (T extends (infer U)[] ? U : any) | any;

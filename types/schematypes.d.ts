@@ -1,4 +1,4 @@
-declare module 'mongoose' {
+declare module 'mongoose-fork' {
 
   /** The Mongoose Date [SchemaType](/docs/schematypes.html). */
   type Date = Schema.Types.Date;

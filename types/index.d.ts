@@ -25,7 +25,7 @@
 
 declare class NativeDate extends global.Date { }
 
-declare module 'mongoose' {
+declare module 'mongoose-fork' {
   import events = require('events');
   import mongodb = require('mongodb');
   import mongoose = require('mongoose');

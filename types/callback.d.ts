@@ -1,4 +1,4 @@
-declare module 'mongoose' {
+declare module 'mongoose-fork' {
   type CallbackError = NativeError | null;
 
   type Callback<T = any> = (error: CallbackError, result: T) => void;

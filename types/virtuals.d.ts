@@ -1,4 +1,4 @@
-declare module 'mongoose' {
+declare module 'mongoose-fork' {
     type VirtualPathFunctions<DocType = {}, PathValueType = unknown, TInstanceMethods = {}> = {
       get?: TVirtualPathFN<DocType, PathValueType, TInstanceMethods, PathValueType>;
       set?: TVirtualPathFN<DocType, PathValueType, TInstanceMethods, void>;

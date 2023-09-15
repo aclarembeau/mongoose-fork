@@ -1,5 +1,5 @@
 
-declare module 'mongoose' {
+declare module 'mongoose-fork' {
   import mongodb = require('mongodb');
 
   class NativeBuffer extends Buffer {}

@@ -1,6 +1,6 @@
 declare class NativeError extends global.Error { }
 
-declare module 'mongoose' {
+declare module 'mongoose-fork' {
   import mongodb = require('mongodb');
 
   type CastError = Error.CastError;

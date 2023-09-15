@@ -1,4 +1,4 @@
-declare module 'mongoose' {
+declare module 'mongoose-fork' {
   import mongodb = require('mongodb');
 
   type ClientSessionOptions = mongodb.ClientSessionOptions;
